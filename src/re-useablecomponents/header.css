@@ -1,0 +1,38 @@
+*{
+    letter-spacing: 1px;
+}
+.user-name
+{
+    float: right;
+    display: inline;
+    margin: 0px;
+    color: white;
+}
+.user-icon
+{
+    width: 25px;
+    float: right;
+    display: inline;
+    margin: 0px 5px 0px 5px;
+}
+.company-name
+{  
+    display: inline;
+    font-size: 30px;
+    color : white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.header
+{
+    padding: 10px;
+    border-bottom: 2px solid;
+    background:#0063ff;
+    height: 60px !important;
+}
+.add-btn
+{
+    float: right;
+    font-weight: bold !important;
+    color: white !important;
+}

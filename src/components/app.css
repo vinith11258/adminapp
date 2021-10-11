@@ -1,0 +1,69 @@
+body
+{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+}
+div
+{
+    height: inherit
+}
+.app-div
+{
+    display: flex;
+    width: 100%;
+}
+.l-div
+{
+    width: 20%;
+    margin-right: 10px;
+    border-right: 2px solid #0063ff;
+}
+.r-div
+{
+    width : 80%;
+    margin: 10px 10px 10px 0px;
+    overflow-y: scroll;
+}
+img
+{
+    width: 20px;
+    float: right;
+}
+.left-component li
+{
+    list-style-type: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.active-li
+{
+    background: #dce0eb;
+}
+.left-component li p
+{
+    display: inline;
+}
+ul{
+    padding: 0px !important;
+}
+.modal-content
+{
+    height: initial;
+}
+.up-arrow
+{
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 10px;
+    cursor: pointer;
+}
+.down-arrow
+{
+    position: relative;
+    right: -10px;
+    top: 13px;
+    width: 10px;
+    cursor: pointer;
+}
