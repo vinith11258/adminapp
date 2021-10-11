@@ -10,7 +10,7 @@ function App()
 {
     const [activeli, setActiveli] = useState(0)
     const [popupStatus, setPopupStatus] = useState(false)
-    const [sort, setSort] = useState({sortFlag : null, sortField : null, })
+    const [sort, setSort] = useState({sortFlag : '', sortField : null, })
     const [apidata, setapiData] = useState({employee : [
         {
             Name : "Vinith",
